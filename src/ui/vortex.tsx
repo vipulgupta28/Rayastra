@@ -187,7 +187,7 @@ export const Vortex = (props: VortexProps) => {
 
   const resize = (
     canvas: HTMLCanvasElement,
-    ctx?: CanvasRenderingContext2D
+    _?: CanvasRenderingContext2D
   ) => {
     const { innerWidth, innerHeight } = window;
 
