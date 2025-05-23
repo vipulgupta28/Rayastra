@@ -8,12 +8,14 @@ export function BackgroundBoxesDemo() {
       <div className="absolute inset-0 w-full h-full bg-black z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
       <Boxes />
-      <h1 className={cn("md:text-4xl text-xl text-white relative z-20")}>
-        Rayastra
-      </h1>
-      <p className="text-center mt-2 text-neutral-300 relative z-20">
-        Framer motion is the best animation library ngl
-      </p>
+      <footer className="w-full z-100 mt-10 text-white py-6 px-8 flex flex-col md:flex-row items-center justify-between">
+        <h2 className="text-4xl text-white font-bold">RAYASTRA</h2>
+        <div className="flex space-x-6 mt-4 md:mt-0">
+          <a href="#" className="hover:text-sky-400 transition">Home</a>
+          <a href="#" className="hover:text-sky-400 transition">About</a>
+          <a href="#" className="hover:text-sky-400 transition">Contact</a>
+        </div>
+      </footer>
     </div>
   );
 }
