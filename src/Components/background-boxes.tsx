@@ -1,6 +1,6 @@
 "use client";
 import { Boxes } from "../ui/background-boxes";
-import { cn } from "../lib/utils";
+
 
 export function BackgroundBoxesDemo() {
   return (
