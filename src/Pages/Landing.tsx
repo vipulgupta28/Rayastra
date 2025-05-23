@@ -6,6 +6,7 @@ import Testimonials from "../Components/Testimonials";
 import Courses from "../Components/Courses";
 import Cities from "../Components/cities";
 import Contact from "../Components/Contact";
+import Footer from "../Components/Footer";
 
 
 const Landing = () =>{
@@ -22,7 +23,7 @@ const Landing = () =>{
         <Courses/>
         <Cities/>
         <Contact/>
-       
+       <Footer/>
         </>
     )
 }
