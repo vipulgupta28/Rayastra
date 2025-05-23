@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.7",
+    "@tsparticles/engine": "^3.8.1",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.8.1",
     "@types/react-scroll": "^1.8.10",
     "clsx": "^2.1.1",
     "framer-motion": "^12.12.1",
@@ -19,6 +22,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scroll": "^1.9.3",
+    "simplex-noise": "^4.0.3",
     "tailwind-merge": "^3.3.0",
     "tailwindcss": "^4.1.7"
   },

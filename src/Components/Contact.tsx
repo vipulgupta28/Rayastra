@@ -1,7 +1,7 @@
-import { CarouselDemo } from "./carouselDemo";
+import { AnimatedPinDemo } from "./3d";
 
 
-export default function Testimonials() {
+export default function Contact() {
   return (
     <section
       id="who-are-we"
@@ -12,13 +12,13 @@ export default function Testimonials() {
         
       
         <h2 className="text-4xl md:text-5xl font-extrabold mb-6 text-pink-600 dark:text-pink-300 drop-shadow-sm">
-          Hear from our parents and their LOVELY Kids
+          Contact the Creator
         </h2>
         <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto mb-12">
           We’re a team of educators, designers, and technologists building joyful learning experiences for kids — powered by creativity and care.
         </p>
 
-    <CarouselDemo/>
+    <AnimatedPinDemo/>
        
       </div>
     </section>
