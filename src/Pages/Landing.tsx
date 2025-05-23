@@ -5,7 +5,7 @@ import Offerings from "../Components/Offerings";
 import Testimonials from "../Components/Testimonials";
 import Courses from "../Components/Courses";
 import Cities from "../Components/cities";
-import Updates from "../Components/updates";
+import Updates from "../Components/News";
 import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
 
