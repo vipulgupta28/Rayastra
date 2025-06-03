@@ -15,7 +15,7 @@ export default function Offerings() {
         </p>
 
         {/* Tabs component */}
-        <div className="rounded-3xl shadow-xl border-4 border-dashed border-pink-300 dark:border-pink-500 bg-white dark:bg-zinc-900 p-4 md:p-8">
+        <div className="rounded-3xl h-[45rem] shadow-xl border-4 border-dashed border-pink-300 dark:border-pink-500 bg-white dark:bg-zinc-900 p-4 md:p-8">
           <TabsDemo />
         </div>
       </div>

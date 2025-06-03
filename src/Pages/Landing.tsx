@@ -6,7 +6,7 @@ import Testimonials from "../Components/Testimonials";
 import Courses from "../Components/Courses";
 import Cities from "../Components/cities";
 import Updates from "../Components/News";
-import Contact from "../Components/Contact";
+
 import Footer from "../Components/Footer";
 
 
@@ -24,7 +24,7 @@ const Landing = () =>{
         <Courses/>
         <Cities/>
         <Updates/>
-        <Contact/>
+  
        <Footer/>
         </>
     )

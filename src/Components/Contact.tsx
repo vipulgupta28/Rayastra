@@ -1,6 +1,7 @@
 import { AnimatedPinDemo } from "./3d";
 
 
+
 export default function Contact() {
   return (
     <section

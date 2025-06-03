@@ -1,5 +1,6 @@
 "use client";
 import { PinContainer } from "../ui/3d";
+import image from "../assets/WhatsApp Image 2025-05-23 at 14.42.55_5ced65af.jpg"
 
 export function AnimatedPinDemo() {
   return (
@@ -19,7 +20,9 @@ export function AnimatedPinDemo() {
             </span>
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" >
-            <img src={""} alt="" />
+            <img src={image} alt=""
+            className="h-100 w-120" 
+            />
             </div>
         </div>
       </PinContainer>
