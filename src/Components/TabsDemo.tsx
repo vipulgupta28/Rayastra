@@ -5,7 +5,7 @@ import { Tabs } from "../ui/tabs";
 export function TabsDemo() {
   const tabs = [
     {
-      title: "Creativity",
+      title: "Traditional",
       value: "product",
       content: (
         <TabContent title="Our Product">
@@ -14,7 +14,7 @@ export function TabsDemo() {
       ),
     },
     {
-      title: "Fun",
+      title: "Creative",
       value: "services",
       content: (
         <TabContent title="What We Offer">
@@ -23,7 +23,7 @@ export function TabsDemo() {
       ),
     },
     {
-      title: "Intelligence",
+      title: "Knowledge",
       value: "playground",
       content: (
         <TabContent title="Innovation Playground">
@@ -32,7 +32,7 @@ export function TabsDemo() {
       ),
     },
     {
-      title: "Excitement",
+      title: "Intelligence",
       value: "content",
       content: (
         <TabContent title="Our Content Strategy">
@@ -41,7 +41,7 @@ export function TabsDemo() {
       ),
     },
     {
-      title: "Knowledge",
+      title: "Fun",
       value: "random",
       content: (
         <TabContent title="Just for Fun">

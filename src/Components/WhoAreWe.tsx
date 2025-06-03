@@ -11,7 +11,7 @@ export default function Testimonials() {
           Who Are We??
         </h2>
         <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto mb-12">
-          We’re a team of educators, designers, and technologists building joyful learning experiences for kids — powered by creativity and care.
+          At Rayastra, we are dreamers, explorers, and passionate educators on a mission to transform curiosity into clarity. Founded with the belief that learning should be fun, engaging, and limitless, we create a space where young minds can discover the universe of knowledge at their own pace.
         </p>
 
         {/* Full width/height reveal component */}

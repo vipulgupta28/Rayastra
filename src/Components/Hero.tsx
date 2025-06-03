@@ -43,7 +43,7 @@ const Hero = () => {
           </h1>
 
           <div className="text-5xl text-white z-100 font-semibold leading-tight">
-            <p>We Teach Our Kids</p>
+            <p>Turning your curiosities into clarities</p>
             <p className="flex items-center">
               With{" "}
               <span className="ml-2 inline-block relative h-[1em]">

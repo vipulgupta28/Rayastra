@@ -4,23 +4,24 @@ import { StickyScroll } from "../ui/scroll-reveal";
 
 const content = [
   {
-    title: "Collaborative Editing",
+    title: "Traditional Technology",
     description:
-      "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+      "We are here to expand the learning possibilities for the young minds, we blend in together the offline experience into the online learning, by frequently conducting offline follow ups, PTMs, sessions and workshops for the kids and the parents in your cities.",
     content: (
-      <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        Collaborative Editing
+      <div className="flex h-full w-full items-center justify-center">
+       <img src="https://unsplash.com/photos/a-group-of-people-standing-around-a-wooden-bench-EUN-KwdZayg" alt="" />
       </div>
     ),
   },
   {
-    title: "Real time changes",
+    title: "Turning Curiosity into Clarity",
     description:
-      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+      "At Rayastra, we believe every child is born curious — it's the spark that drives discovery. Our mission is to guide that spark through the vast galaxy of learning, helping kids connect the dots between questions and understanding. We turn “Why?” into “Wow!” with fun, personalized, and meaningful education.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
         <img
-          src="/linear.webp"
+          src="
+https://unsplash.com/photos/boy-in-white-long-sleeve-shirt-holding-red-and-clear-plastic-tool-CgIFBwOkApI"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -30,9 +31,9 @@ const content = [
     ),
   },
   {
-    title: "Version control",
+    title: "Learning That Feels Like an Adventure",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "We blend real life experience with education. Whether it’s through interactive videos, 1:1 mentorship, or engaging activities, our platform transforms everyday learning into a journey through the stars. Kids don’t just study here — they explore, create, and grow.",
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] text-white">
         Version control
@@ -40,9 +41,9 @@ const content = [
     ),
   },
   {
-    title: "Running out of content",
+    title: "A Galaxy of Possibilities for Every Child",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+      "We imagine a future where education is limitless — not locked in textbooks, but open like the night sky. Our vision is to build a world where every child, no matter where they come from, can reach for the stars and achieve their full potential. With Rayastra, every child’s path is lit with possibility.",
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
         Running out of content

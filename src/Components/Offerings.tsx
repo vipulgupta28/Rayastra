@@ -11,7 +11,7 @@ export default function Offerings() {
           Our Offerings
         </h2>
         <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto mb-12">
-          We’re a team of educators, designers, and technologists building joyful learning experiences for kids — powered by creativity and care.
+         Rayastra offers a galaxy to your child to explore the possibilities, stars to choose the path from, and a mentor to guide you on each constellation.
         </p>
 
         {/* Tabs component */}
