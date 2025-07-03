@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { TextGenerateEffect } from '../ui/textgenerate';
 import image1 from "../assets/WhoAreWe.png"
-import image2 from "../assets/Mission.png";
 import image3 from "../assets/Approach.png"
 import image4 from "../assets/Team.png";
 import image5 from "../assets/Impact.png";
@@ -59,7 +58,7 @@ export default function Testimonials() {
     const container = scrollContainerRef.current;
     container?.addEventListener('scroll', handleScroll);
 
-     if (!initialScrollDone) {
+     if (container && !initialScrollDone) {
       const sectionHeight = container.scrollHeight / (sections.length + 1);
       container.scrollTo({
         top: sectionHeight * 0.7, // Scroll to 70% of first section
